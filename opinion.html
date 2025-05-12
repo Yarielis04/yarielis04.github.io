@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset= "UTF-8"> 
+<meta name="description" content="Proyecto Final- Color Real del Sol">
+<meta name="keywords" content="Sol, Colores, Ciencia, Espectro Solar">
+<meta name="author" content="Yarielis Caraballo Rodríguez">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Proyecto Final</title>
+	<link rel="stylesheet" href="estilos pf.css">
+</head>
+<body>
+	<header> ¿Tú qué opinas? </header>
+
+<table> 
+<tr>
+<th colspan= "2"> <h2> Pon aprueba tus conocimientos. </h2></th>
+</tr>
+	
+<tr>
+<td> <section class="quiz">
+  <h3>¿De qué color es el Sol realmente?</h3>
+
+  <input type="radio" id="q1-op1" name="q1" hidden>
+  <label for="q1-op1">Amarillo</label>
+  <input type="radio" id="q1-op2" name="q1" hidden>
+  <label for="q1-op2">Rojo</label>
+  <input type="radio" id="q1-op3" name="q1" hidden>
+  <label for="q1-op3">Blanco</label>
+  
+  <div class="respuesta-incorrecta" id="q1-incorrecta">
+    Incorrecto. El Sol es blanco. La atmósfera cambia cómo lo vemos.
+  </div>
+
+  <div class="respuesta" id="q1-correcta">
+    ¡Correcto! El Sol es blanco, aunque desde la Tierra lo vemos amarillo.
+  </div>
+</section></td>
+
+<td> <section class="quiz">
+  <h3>¿Por qué el cielo se ve azul?</h3>
+
+  <input type="radio" id="q2-op1" name="q2" hidden>
+  <label for="q2-op1">Por el reflejo del mar</label>
+  <input type="radio" id="q2-op2" name="q2" hidden>
+  <label for="q2-op2">Por la dispersión de Rayleigh</label>
+  <input type="radio" id="q2-op3" name="q2" hidden>
+  <label for="q2-op3">Porque la atmósfera es azul</label>
+
+  <div class="respuesta-incorrecta" id= "q2-incorrecta">
+	Respuesta incorrecta. ¡Piensa en cómo la luz interactúa con el aire!</div>
+	
+  <div class="respuesta" id= "q2-correcta">
+	¡Correcto! Es por la dispersión de Rayleigh.</div>
+</section> </td>
+</tr>
+
+<tr>
+<td> <section class="quiz">
+  <h3>¿Qué tipo de luz emite el Sol?</h3>
+
+  <input type="radio" id="q3-op1" name="q3" hidden>
+  <label for="q3-op1">Luz monocromática</label>
+  <input type="radio" id="q3-op2" name="q3" hidden>
+  <label for="q3-op2">Luz blanca (mezcla de todos los colores)</label>
+  <input type="radio" id="q3-op3" name="q3" hidden>
+  <label for="q3-op3">Luz ultravioleta únicamente</label>
+
+  <div class="respuesta-incorrecta" id= "q3-incorrecta">
+	Incorrecto. El Sol emite más que solo un color. ¡Observa el arcoíris!</div>
+  <div class="respuesta" id= "q3-correcta">
+	¡Exacto! El Sol emite luz blanca, que contiene todos los colores del espectro visible.</div>
+</section> </td>
+
+<td> <section class="quiz">
+  <h3>¿Qué fenómeno hace que el Sol se vea anaranjado al atardecer?</h3>
+
+  
+  <input type="radio" id="q4-op1" name="q4" hidden>
+  <label for="q4-op1">Dispersión de Rayleigh</label>
+  <input type="radio" id="q4-op2" name="q4" hidden>
+  <label for="q4-op2">Contaminación del aire</label>
+  <input type="radio" id="q4-op3" name="q4" hidden>
+  <label for="q4-op3">Distancia al Sol</label>
+
+  <div class="respuesta-incorrecta" id= "q4-incorrecta">
+	Ups, esa no es. ¿Qué dice la física atmosférica?</div>
+  <div class="respuesta" id= "q4-correcta">
+	¡Correcto! La dispersión de Rayleigh intensifica los colores anaranjado y rojo al atardecer.</div>
+</section> </td>
+</tr>
+
+<tr>
+<td colspan= "2"> <section class="quiz">
+  <h3>¿Dónde podrías ver el color verdadero del Sol?</h3>
+
+   <input type="radio" id="q5-op1" name="q5" hidden>
+  <label for="q5-op1">Desde la Tierra</label>
+  <input type="radio" id="q5-op2" name="q5" hidden>
+  <label for="q5-op2">Desde un submarino</label>
+  <input type="radio" id="q5-op3" name="q5" hidden>
+  <label for="q5-op3">Desde el espacio</label>
+
+  <div class="respuesta-incorrecta" id= "q5-incorrecta">
+	Recuerda que desde el espacio no hay atmósfera que cambie la luz.</div>
+  <div class="respuesta" id= "q5-correcta">
+	¡Bien! Desde el espacio, sin atmósfera, el Sol se ve blanco.</div>
+</section> </td>
+</tr>
+</table>
+
+
+	<div class= "content">
+		<h2><center> ¿Sabías que el color real del Sol era blanco? 
+		<br>Comparte tu opinión aquí: </center></h2>
+		
+		<form name="opiniones-sol" method="POST" data-netlify="true">
+		<input type= "text" id= "nombre" name="nombre" placeholder= "Tu nombre">
+		<textarea id="opinion" name= "opinion" placeholder= "Escribe tu opinión aquí"></textarea>
+		<input type= "submit" value= "Enviar">
+		</form>
+		
+		
+		<h2> Reflexión final </h2>
+ <p> La ciencia no solo nos ayuda a entender el universo, también nos invita a cuestionar lo que creemos saber. 
+ El Sol no es solo una esfera amarilla en el cielo, es una estrella blanca llena de energía, complejidad y belleza. 
+ La próxima vez que mires hacia arriba, recuerda: no todo es lo que parece. </p>
+<br>
+<br>		
+	<p> Gracias por su participación. Puede regresar a la <a href= "index.html"> páginal principal </a>. </p>
+	</div>
+		
+	<!-- Footer -->
+<footer>
+  <p> © 2025 Proyecto Final - Descubre el verdadero color del Sol. 
+  <br> Hecho por Yarielis Caraballo Rodríguez 
+  <br> Imágenes: NASA, Vhmsscience 
+  <br>Fuentes de información: NASA, BBC News 
+  <br> Fecha: 14 de mayo de 2025
+  <br> <a href="mailto:ycar1927@interponce.edu">Contáctame</a></p>
+</footer>		
+		
+</body>
+</html>
