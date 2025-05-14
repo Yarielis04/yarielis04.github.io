@@ -408,13 +408,3 @@ footer a:hover {
   .content {
     padding: 20px;
   }
-
-  header {
-    font-size: 1.5rem;
-  }
-
-  h2::before {
-    left: -30px;
-    top: -2px;
-  }
-}
