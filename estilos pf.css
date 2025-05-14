@@ -216,20 +216,7 @@ textarea {
   height: 120px;
 }
 
-input[type="submit"] {
-  padding: 12px 20px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff6f00;
-  color: #000;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #f0e68c;
-}
-
+input[type="submit"],
 input[type="reset"] {
   padding: 12px 20px;
   font-weight: bold;
@@ -240,6 +227,7 @@ input[type="reset"] {
   cursor: pointer;
 }
 
+input[type="submit"]:hover,
 input[type="reset"]:hover {
   background-color: #f0e68c;
 }
