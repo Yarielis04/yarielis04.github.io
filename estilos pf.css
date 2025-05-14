@@ -224,12 +224,12 @@ input[type="reset"] {
   border-radius: 5px;
   background-color: #ff6f00;
   color: #000;
-  cursor: pointer;
+  cursor: pointer; !important
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #f0e68c;
+  background-color: #f0e68c; !important
 }
 
 /* Quiz interactivo */
